@@ -1,20 +1,19 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { users, mic, handshake, earth } from 'lucide-react';
+import { Users, Mic, Handshake, Earth } from 'lucide-react';
 
 const Volunteer = () => {
   const volunteerExperiences = [
     {
-      icon: users,
+      icon: Users,
       organization: "Google Developer Groups (GDG) Lafia",
-      role: "Lead Organizer",
+      role: "Lead Organizer", 
       period: "2022 – Present",
       summary: "Grew the local developer community to 1,500+ members. Organized meetups, DevFest events, and technical training sessions.",
       logo: "https://developers.google.com/static/community/gdg/images/gdg-social-share.png"
     },
     {
-      icon: mic,
+      icon: Mic,
       organization: "Google Developer Student Clubs & Twitter DSC",
       role: "Mentor / Volunteer Trainer",
       period: "2020 – 2022",
@@ -22,7 +21,7 @@ const Volunteer = () => {
       logo: "https://developers.google.com/static/community/dsc/images/dsc-social-share.png"
     },
     {
-      icon: handshake,
+      icon: Handshake,
       organization: "Young Innovators of Nigeria (YIN)",
       role: "Mentor / Program Facilitator",
       period: "2021 – Present",
@@ -30,7 +29,7 @@ const Volunteer = () => {
       emoji: "🧑‍🏫"
     },
     {
-      icon: earth,
+      icon: Earth,
       organization: "NASA Space Apps Challenge (Nigeria Chapter)",
       role: "Volunteer Organizer / Judge",
       period: "2019 – 2022",
@@ -38,7 +37,7 @@ const Volunteer = () => {
       logo: "https://www.spaceappschallenge.org/assets/images/share-image.jpg"
     },
     {
-      icon: users,
+      icon: Users,
       organization: "Ingressive for Good (I4G) / Financial Services Innovators (FSI)",
       role: "Community Advocate",
       period: "Ongoing",
