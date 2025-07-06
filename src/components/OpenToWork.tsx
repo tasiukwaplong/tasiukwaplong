@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Code, Users, Brain, Settings, Cloud, MessageSquare, Globe, TrendingUp } from 'lucide-react';
+import { Code, Users, Brain, Settings, Cloud, MessageSquare, Globe, TrendingUp, GraduationCap, Calendar } from 'lucide-react';
 
 const OpenToWork = () => {
   const services = [
@@ -9,6 +9,16 @@ const OpenToWork = () => {
       icon: Code,
       title: "Full-Stack Web Development",
       description: "Building scalable web applications with modern technologies"
+    },
+    {
+      icon: GraduationCap,
+      title: "Private Web Development Classes",
+      description: "One-on-one personalized web development training sessions"
+    },
+    {
+      icon: Calendar,
+      title: "Startup Advisory Sessions",
+      description: "Book private consultation sessions for strategic startup guidance"
     },
     {
       icon: Users,
