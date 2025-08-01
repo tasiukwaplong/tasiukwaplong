@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Tasiu Kwaplong
 
-**Software Engineer | DevRel | Community Leader | Mentor**
+**Software Engineer | DevRel | Community Leader | Startup Mentor**
 
 Welcome to my GitHub! I’m a full-stack web developer, open-source enthusiast, and innovation hub manager passionate about using technology to solve real-world problems and empower communities.
 
