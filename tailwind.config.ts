@@ -20,7 +20,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Inter', 'system-ui', 'sans-serif'],
+				sans: ['Fira Code', 'monospace'],
+				mono: ['Fira Code', 'monospace'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
