@@ -4,6 +4,11 @@ import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { Linkedin, Github, MessageCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Projects from '@/components/Projects';
+import Testimonials from '@/components/Testimonials';
+import Blog from '@/components/Blog';
+import Consulting from '@/components/Consulting';
+import Footer from '@/components/Footer';
 
 const Home = () => {
   return (
@@ -117,6 +122,21 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Projects Section */}
+      <Projects />
+
+      {/* Testimonials Section */}
+      <Testimonials />
+
+      {/* Blog Section */}
+      <Blog />
+
+      {/* Consulting Section */}
+      <Consulting />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };

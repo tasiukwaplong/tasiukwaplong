@@ -44,9 +44,15 @@ const Hire = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Hire Me
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-6">
               I'm available for freelance, consulting, speaking, or leadership roles in the following areas:
             </p>
+            <div className="bg-card border rounded-lg p-6 max-w-2xl mx-auto">
+              <p className="text-muted-foreground flex items-center justify-center">
+                <span className="text-xl mr-2">🌍</span>
+                I'm open to both <strong className="mx-1">remote roles</strong> and <strong className="mx-1">relocation</strong> opportunities (Canada, Germany, UK, Australia). I've worked with async teams and I'm comfortable building across time zones.
+              </p>
+            </div>
           </div>
 
           {/* Role Cards */}
