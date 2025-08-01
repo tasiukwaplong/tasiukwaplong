@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+# 👋 Hi, I’m Tasiu Kwaplong
 
-## Project info
+**Software Engineer | DevRel | Community Leader | Mentor**
 
-**URL**: https://lovable.dev/projects/dd11833a-6f36-4492-9f4b-2bb1f3205f3d
+Welcome to my GitHub! I’m a full-stack web developer, open-source enthusiast, and innovation hub manager passionate about using technology to solve real-world problems and empower communities.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 💼 What I Do
 
-**Use Lovable**
+- 🧑🏽‍💻 **Full-Stack Development**  
+  Laravel · Node.js · WordPress (Custom Themes & Plugins) · MySQL · REST APIs
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dd11833a-6f36-4492-9f4b-2bb1f3205f3d) and start prompting.
+- ☁️ **Cloud & DevOps**  
+  AWS · Linux · Server Management · Monitoring with Grafana
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🧑🏽‍🏫 **Mentorship & Training**  
+  Trained 2,000+ students in web development, digital skills, and tech careers
 
-**Use your preferred IDE**
+- 🌍 **Community Leadership**  
+  Lead Organizer – GDG Lafia  
+  Founder – 02 Innovations Lab  
+  Hackathon Facilitator · Event Organizer · Tech Speaker
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 🚀 **Startup Projects**  
+  Co-founder of EasyBuy4Me – An e-commerce and logistics platform  
+  Built MobileCBT – An offline-friendly, QR-authenticated CBT testing system
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📣 I’m Currently
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- 🔭 Building and mentoring at [02 Innovations Lab](https://github.com/02-Innovations)
+- 💡 Exploring Developer Relations opportunities
+- ✈️ Open to remote and relocation roles (Germany, Canada, Australia, UK)
+- 🎙️ Speaking at events and mentoring aspiring developers
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🤝 Let’s Collaborate
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- 👨🏽‍💻 Hire me as a **Software Developer**, **DevRel**, or **Community Manager**
+- 📚 Learn from me: I offer structured training & project-based mentorship
+- 📨 Invite me to speak or train at your next tech event
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📫 How to Reach Me
 
-**Use GitHub Codespaces**
+- 🌐 [My Website](https://tasiukwaplong.com)
+- 💼 [LinkedIn](https://linkedin.com/in/tasiukwaplong)
+- 💬 [WhatsApp Me](https://wa.me/2349031514346?text=Hello%2C%20I%20saw%20your%20GitHub%20and%20would%20love%20to%20connect)
+- 📥 Email: tasiukwaplong@gmail.com
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🌱 Fun Facts
 
-This project is built with:
+- 🥇 Winner of multiple hackathons and innovation challenges
+- 🎓 MSc in Computer Science (in progress)
+- 🌐 Advocate for inclusive tech in underserved regions
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dd11833a-6f36-4492-9f4b-2bb1f3205f3d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+_“The goal isn’t just to build tech — it’s to build people who can build tech.”_
