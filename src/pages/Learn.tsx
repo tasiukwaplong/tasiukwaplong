@@ -9,20 +9,46 @@ import { Link } from 'react-router-dom';
 const Learn = () => {
   const skills = [
     {
+      icon: '💻',
       title: 'Full-Stack Web Development',
-      description: 'Learn how to build websites and web apps from scratch using Laravel, Node.js, WordPress, HTML/CSS, and MySQL.'
+      description: 'Learn how to build websites and web apps from scratch using HTML/CSS, JavaScript, Laravel, Node.js, MySQL, and using AI tools.'
     },
     {
-      title: 'Cloud & DevOps',
-      description: 'Understand the basics of AWS, Linux, server management, and monitoring using tools like Grafana.'
+      icon: '📱',
+      title: 'WordPress Theme & Plugin Development',
+      description: 'Master WordPress development from custom themes to complex plugins, including custom post types, hooks, and database management.'
     },
     {
-      title: 'Community Leadership',
-      description: 'Discover how to build, grow, and lead tech communities through events, mentorship, and structure.'
+      icon: '🚀',
+      title: 'Startup Coaching/Mentorship',
+      description: 'Get guidance on building and scaling your startup, product development, team building, and navigating the entrepreneurial journey.'
+    }
+  ];
+
+  const blogPosts = [
+    {
+      emoji: '🎤',
+      title: 'Speaking at DevFest Lafia 2024',
+      description: 'Delivered a keynote on "Building Sustainable Tech Communities in Northern Nigeria" to over 300 developers.',
+      link: '#'
     },
     {
-      title: 'Tech Career Kickstart',
-      description: 'Get guidance on CV building, GitHub setup, personal branding, and applying for internships, scholarships, or jobs abroad.'
+      emoji: '📝',
+      title: 'How I Built a CBT App with QR Code Verification',
+      description: 'A deep dive into building an offline-first, mobile-friendly testing platform for educational institutions.',
+      link: '#'
+    },
+    {
+      emoji: '🌍',
+      title: 'Lessons from Leading 02 Innovations Lab',
+      description: 'Reflections on building and managing an innovation community in Northern Nigeria and empowering young developers.',
+      link: '#'
+    },
+    {
+      emoji: '🎯',
+      title: 'Why Every Developer Should Learn Laravel in 2024',
+      description: 'My thoughts on Laravel\'s ecosystem, career opportunities, and why it\'s perfect for building scalable applications.',
+      link: '#'
     }
   ];
 
@@ -77,10 +103,11 @@ const Learn = () => {
           </div>
 
           {/* Skills Cards */}
-          <div className="grid md:grid-cols-2 gap-6 mb-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             {skills.map((skill, index) => (
               <Card key={index} className="group hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02]">
                 <CardHeader>
+                  <div className="text-4xl mb-4">{skill.icon}</div>
                   <CardTitle className="text-xl">
                     {skill.title}
                   </CardTitle>
@@ -92,6 +119,37 @@ const Learn = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          {/* Blog/Talks Section */}
+          <div className="mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+              📝 My Talks & Writings
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              {blogPosts.map((post, index) => (
+                <Card key={index} className="group hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02]">
+                  <CardHeader>
+                    <div className="text-3xl mb-2">{post.emoji}</div>
+                    <CardTitle className="text-lg">
+                      {post.title}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-muted-foreground leading-relaxed mb-4">
+                      {post.description}
+                    </p>
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                    >
+                      Read More
+                    </Button>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
 
           {/* How It Works Section */}
