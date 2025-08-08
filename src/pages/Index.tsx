@@ -13,6 +13,9 @@ import Awards from '../components/Awards';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   return (
@@ -64,6 +67,36 @@ const Index = () => {
             <Contact />
           </TabsContent>
         </Tabs>
+
+        <section className="mt-12 grid md:grid-cols-2 gap-6">
+          <Card className="hover:shadow-lg transition-shadow">
+            <CardHeader>
+              <CardTitle>Learn from me</CardTitle>
+            </CardHeader>
+            <CardContent className="text-muted-foreground">
+              1-on-1 mentorship and structured training. Build and deploy a real project.
+              <div className="mt-4">
+                <Button asChild>
+                  <Link to="/learn">Explore mentorship</Link>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="hover:shadow-lg transition-shadow">
+            <CardHeader>
+              <CardTitle>Hire me</CardTitle>
+            </CardHeader>
+            <CardContent className="text-muted-foreground">
+              Part-time development, DevRel support, and community advisory.
+              <div className="mt-4">
+                <Button asChild variant="secondary">
+                  <Link to="/hire">See engagement options</Link>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
       </main>
       <Footer />
     </div>

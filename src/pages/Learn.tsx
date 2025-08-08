@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { GraduationCap, CheckCircle, Calendar, Clock, ArrowRight, MessageSquare } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Learn: React.FC = () => {
   useEffect(() => {
@@ -27,6 +28,11 @@ const Learn: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-800 transition-colors duration-500">
       <header className="container mx-auto px-4 pt-10 pb-4">
+        <nav className="text-sm text-muted-foreground mb-2">
+          <Link to="/" className="hover:underline">Home</Link>
+          <span className="mx-1">/</span>
+          <span>Learn</span>
+        </nav>
         <h1 className="text-3xl md:text-4xl font-bold">Learn from me</h1>
         <p className="text-muted-foreground mt-2 max-w-2xl">Hybrid training (physical/virtual), 1-on-1 mentorship, and structured, project-based learning. Build and deploy a real project before completion.</p>
       </header>
