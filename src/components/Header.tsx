@@ -1,7 +1,8 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Download, Mail, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowRight, Briefcase, GraduationCap, Mail, Github, Linkedin, Twitter } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { ThemeToggle } from './ThemeToggle';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
@@ -55,23 +56,29 @@ const Header = () => {
             "Empowering people and solving real-world problems through tech."
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button 
-              size="lg" 
-              className="bg-white text-blue-700 hover:bg-blue-50 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700 transition-all duration-300 transform hover:scale-105"
-            >
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-blue-700 dark:border-slate-300 dark:hover:bg-slate-300 dark:hover:text-slate-900 transition-all duration-300 transform hover:scale-105"
-            >
-              Let's Work Together
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+              <Button 
+                asChild
+                size="lg" 
+                className="bg-white text-blue-700 hover:bg-blue-50 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700 transition-all duration-300 transform hover:scale-105"
+              >
+                <Link to="/hire" aria-label="Hire me page">
+                  <Briefcase className="mr-2 h-5 w-5" />
+                  Hire me
+                </Link>
+              </Button>
+              <Button 
+                asChild
+                size="lg" 
+                variant="outline" 
+                className="border-white text-white hover:bg-white hover:text-blue-700 dark:border-slate-300 dark:hover:bg-slate-300 dark:hover:text-slate-900 transition-all duration-300 transform hover:scale-105"
+              >
+                <Link to="/learn" aria-label="Learn from me page">
+                  Learn from me
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+              </Button>
+            </div>
           
           <div className="flex justify-center space-x-6">
             <a href="https://linkedin.com/in/tasiukwaplong" className="p-3 rounded-full bg-white/10 hover:bg-white/20 dark:bg-slate-800/50 dark:hover:bg-slate-700/70 transition-all duration-300 transform hover:scale-110">
