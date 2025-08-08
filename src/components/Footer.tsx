@@ -1,64 +1,48 @@
 
 import React from 'react';
-import { Button } from '@/components/ui/button';
-import { Linkedin, Github, MessageCircle, Download } from 'lucide-react';
-import { ThemeToggle } from './ThemeToggle';
+import { Mail, Github, Linkedin, Twitter, Heart } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-card border-t py-12">
+    <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-6">
-        <div className="max-w-4xl mx-auto text-center space-y-8">
-          {/* Theme Toggle */}
-          <div className="flex justify-center">
-            <ThemeToggle />
-          </div>
-
-          {/* Speaker Branding Kit Button */}
-          <div>
-            <Button 
-              asChild
-              className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 transform hover:scale-105"
-            >
-              <a href="/files/speaker-branding-kit.zip" download>
-                <Download className="mr-2 h-4 w-4" />
-                Get My Speaker Branding Kit
-              </a>
-            </Button>
-          </div>
-
-          {/* Social Links */}
-          <div className="flex justify-center space-x-6">
+        <div className="text-center">
+          <div className="flex justify-center space-x-6 mb-8">
             <a 
               href="https://linkedin.com/in/tasiukwaplong" 
-              className="p-3 rounded-full bg-secondary hover:bg-accent transition-all duration-300 transform hover:scale-110"
-              target="_blank"
-              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-gray-800 hover:bg-blue-600 transition-colors duration-300 transform hover:scale-110"
             >
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
+              href="mailto:tasiukwaplong@gmail.com" 
+              className="p-3 rounded-full bg-gray-800 hover:bg-blue-600 transition-colors duration-300 transform hover:scale-110"
+            >
+              <Mail className="h-6 w-6" />
+            </a>
+            <a 
               href="https://github.com/tasiukwaplong" 
-              className="p-3 rounded-full bg-secondary hover:bg-accent transition-all duration-300 transform hover:scale-110"
-              target="_blank"
-              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-gray-800 hover:bg-blue-600 transition-colors duration-300 transform hover:scale-110"
             >
               <Github className="h-6 w-6" />
             </a>
             <a 
-              href="https://wa.me/2349031514346" 
-              className="p-3 rounded-full bg-secondary hover:bg-accent transition-all duration-300 transform hover:scale-110"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="https://twitter.com/tasiukwaplong" 
+              className="p-3 rounded-full bg-gray-800 hover:bg-blue-600 transition-colors duration-300 transform hover:scale-110"
             >
-              <MessageCircle className="h-6 w-6" />
+              <Twitter className="h-6 w-6" />
             </a>
           </div>
-
-          {/* Copyright */}
-          <div className="border-t border-border pt-8">
-            <p className="text-muted-foreground">
-              © 2025 Tasiu Kwaplong. All rights reserved.
+          
+          <blockquote className="text-xl md:text-2xl font-light mb-8 max-w-3xl mx-auto leading-relaxed">
+            "The goal isn't just to build tech. It's to build people who can build tech."
+          </blockquote>
+          
+          <div className="border-t border-gray-800 pt-8">
+            <p className="text-gray-400 flex items-center justify-center">
+              © 2024 Tasiu Kwaplong. Made with 
+              <Heart className="h-4 w-4 mx-2 text-red-500" fill="currentColor" />
+              in Nigeria
             </p>
           </div>
         </div>

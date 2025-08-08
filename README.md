@@ -1,65 +1,73 @@
-# 👋 Hi, I’m Tasiu Kwaplong
+# Welcome to your Lovable project
 
-**Software Engineer | DevRel | Community Leader | Startup Mentor**
+## Project info
 
-Welcome to my GitHub! I’m a full-stack web developer, open-source enthusiast, and innovation hub manager passionate about using technology to solve real-world problems and empower communities.
+**URL**: https://lovable.dev/projects/dd11833a-6f36-4492-9f4b-2bb1f3205f3d
 
----
+## How can I edit this code?
 
-## 💼 What I Do
+There are several ways of editing your application.
 
-- 🧑🏽‍💻 **Full-Stack Development**  
-  Laravel · Node.js · WordPress (Custom Themes & Plugins) · MySQL · REST APIs
+**Use Lovable**
 
-- ☁️ **Cloud & DevOps**  
-  AWS · Linux · Server Management · Monitoring with Grafana
+Simply visit the [Lovable Project](https://lovable.dev/projects/dd11833a-6f36-4492-9f4b-2bb1f3205f3d) and start prompting.
 
-- 🧑🏽‍🏫 **Mentorship & Training**  
-  Trained 2,000+ students in web development, digital skills, and tech careers
+Changes made via Lovable will be committed automatically to this repo.
 
-- 🌍 **Community Leadership**  
-  Lead Organizer – GDG Lafia  
-  Founder – 02 Innovations Lab  
-  Hackathon Facilitator · Event Organizer · Tech Speaker
+**Use your preferred IDE**
 
-- 🚀 **Startup Projects**  
-  Co-founder of EasyBuy4Me – An e-commerce and logistics platform  
-  Built MobileCBT – An offline-friendly, QR-authenticated CBT testing system
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
----
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## 📣 I’m Currently
+Follow these steps:
 
-- 🔭 Building and mentoring at [02 Innovations Lab](https://github.com/02-Innovations)
-- 💡 Exploring Developer Relations opportunities
-- ✈️ Open to remote and relocation roles (Germany, Canada, Australia, UK)
-- 🎙️ Speaking at events and mentoring aspiring developers
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
----
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## 🤝 Let’s Collaborate
+# Step 3: Install the necessary dependencies.
+npm i
 
-- 👨🏽‍💻 Hire me as a **Software Developer**, **DevRel**, or **Community Manager**
-- 📚 Learn from me: I offer structured training & project-based mentorship
-- 📨 Invite me to speak or train at your next tech event
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
----
+**Edit a file directly in GitHub**
 
-## 📫 How to Reach Me
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-- 🌐 [My Website](https://tasiukwaplong.com)
-- 💼 [LinkedIn](https://linkedin.com/in/tasiukwaplong)
-- 💬 [WhatsApp Me](https://wa.me/2349031514346?text=Hello%2C%20I%20saw%20your%20GitHub%20and%20would%20love%20to%20connect)
-- 📥 Email: tasiukwaplong@gmail.com
+**Use GitHub Codespaces**
 
----
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## 🌱 Fun Facts
+## What technologies are used for this project?
 
-- 🥇 Winner of multiple hackathons and innovation challenges
-- 🎓 MSc in Computer Science (in progress)
-- 🌐 Advocate for inclusive tech in underserved regions
+This project is built with:
 
----
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-_“The goal isn’t just to build tech — it’s to build people who can build tech.”_
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/dd11833a-6f36-4492-9f4b-2bb1f3205f3d) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
