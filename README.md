@@ -1,62 +1,40 @@
 
 # Tasiu Kwaplong
 
-Tasiu Kwaplong is a modern, responsive personal portfolio web application built with React, TypeScript, Vite, and Tailwind CSS. It showcases professional experience, education, skills, projects, awards, speaking engagements, and more, with a clean and accessible design.
+Welcome! I'm **Tasiu Kwaplong**, a passionate developer, educator, and community builder. My mission is to create impactful digital experiences and empower others through technology and knowledge sharing.
 
-## Features
+## About Me
 
-- **About**: Personal introduction and summary.
-- **Experience**: Timeline of professional roles and achievements.
-- **Education**: Academic background and qualifications.
-- **Skills**: Technical and soft skills, visually organized.
-- **Projects**: Portfolio of work, with descriptions and links.
-- **Awards**: Honors and recognitions.
-- **Speaking**: Events and talks delivered.
-- **Volunteer**: Community service and volunteer work.
-- **Contact**: Contact form and details.
-- **Open to Work**: Banner indicating job search status.
-- **Theme Toggle**: Light/dark mode switch.
-- **UI Components**: Custom, reusable components for buttons, cards, dialogs, forms, navigation, and more (see `src/components/ui/`).
+I specialize in web development, backend engineering, and digital strategy. With a background in both technical and creative fields, I enjoy building solutions that are not only functional but also user-friendly and visually appealing. I am dedicated to continuous learning, mentoring, and contributing to open source and community initiatives.
+
+## Mission
+
+To leverage technology for positive change, foster collaboration, and inspire others to reach their full potential.
+
+## Portfolio Features
+
+- **About**: My story, values, and vision.
+- **Experience**: Professional journey and achievements.
+- **Education**: Academic history and certifications.
+- **Skills**: Technical expertise and soft skills.
+- **Projects**: Selected works and case studies.
+- **Awards**: Recognitions and honors.
+- **Speaking**: Talks, workshops, and events.
+- **Volunteer**: Community service and outreach.
+- **Contact**: Get in touch for collaborations or opportunities.
+- **Open to Work**: Actively seeking new challenges and roles.
+- **Theme Toggle**: Light/dark mode for accessibility.
 
 ## Tech Stack
 
-- **Frontend**: React, TypeScript
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS, PostCSS
+- **Frontend**: React, TypeScript, VueJs
+- **Styling**: Tailwind CSS, Bootstrap, CSS
 - **Linting**: ESLint
+- **Backend**: ExpressJS, Laravel
+- **CMS**: Wordpress
 
-## Project Structure
+## Connect
 
-```
-src/
-  components/        # Main page sections and UI components
-  hooks/             # Custom React hooks
-  lib/               # Utility functions
-  pages/             # Page-level components (Hire, Learn, etc.)
-  App.tsx            # Main app component
-  main.tsx           # Entry point
-public/              # Static assets
-```
+- [LinkedIn](#) | [Twitter](#) | [Email](#)
 
-## Getting Started
-
-1. **Install dependencies:**
-	```sh
-	npm install
-	```
-2. **Run the development server:**
-	```sh
-	npm run dev
-	```
-3. **Build for production:**
-	```sh
-	npm run build
-	```
-
-## Customization
-
-Edit the content in the `src/components/` and `src/pages/` folders to update personal information, projects, and other sections. UI components in `src/components/ui/` can be reused and styled as needed.
-
-## License
-
-This project is open source and available under the MIT License.
+Thank you for visiting my portfolio! Feel free to explore, connect, or reach out for collaboration.
