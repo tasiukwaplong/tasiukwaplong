@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
 
-## Project info
+# Tasiu Kwaplong
 
-**URL**: https://lovable.dev/projects/dd11833a-6f36-4492-9f4b-2bb1f3205f3d
+Tasiu Kwaplong is a modern, responsive personal portfolio web application built with React, TypeScript, Vite, and Tailwind CSS. It showcases professional experience, education, skills, projects, awards, speaking engagements, and more, with a clean and accessible design.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **About**: Personal introduction and summary.
+- **Experience**: Timeline of professional roles and achievements.
+- **Education**: Academic background and qualifications.
+- **Skills**: Technical and soft skills, visually organized.
+- **Projects**: Portfolio of work, with descriptions and links.
+- **Awards**: Honors and recognitions.
+- **Speaking**: Events and talks delivered.
+- **Volunteer**: Community service and volunteer work.
+- **Contact**: Contact form and details.
+- **Open to Work**: Banner indicating job search status.
+- **Theme Toggle**: Light/dark mode switch.
+- **UI Components**: Custom, reusable components for buttons, cards, dialogs, forms, navigation, and more (see `src/components/ui/`).
 
-**Use Lovable**
+## Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dd11833a-6f36-4492-9f4b-2bb1f3205f3d) and start prompting.
+- **Frontend**: React, TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS, PostCSS
+- **Linting**: ESLint
 
-Changes made via Lovable will be committed automatically to this repo.
+## Project Structure
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+  components/        # Main page sections and UI components
+  hooks/             # Custom React hooks
+  lib/               # Utility functions
+  pages/             # Page-level components (Hire, Learn, etc.)
+  App.tsx            # Main app component
+  main.tsx           # Entry point
+public/              # Static assets
 ```
 
-**Edit a file directly in GitHub**
+## Getting Started
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. **Install dependencies:**
+	```sh
+	npm install
+	```
+2. **Run the development server:**
+	```sh
+	npm run dev
+	```
+3. **Build for production:**
+	```sh
+	npm run build
+	```
 
-**Use GitHub Codespaces**
+## Customization
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Edit the content in the `src/components/` and `src/pages/` folders to update personal information, projects, and other sections. UI components in `src/components/ui/` can be reused and styled as needed.
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dd11833a-6f36-4492-9f4b-2bb1f3205f3d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is open source and available under the MIT License.
